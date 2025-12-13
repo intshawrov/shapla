@@ -4,12 +4,24 @@ const body = document.getElementById('body');
 const button = document.querySelectorAll('li');
 
 const redColor = document.querySelector('.red');
-redColor.addEventListener
+redColor.addEventListener('click', function(){
+      body.style.backgroundColor = '#e84118';
+});
 
 
-const green = document.querySelector('.green');
-const blue = document.querySelector('.blue');
+const greenColor = document.querySelector('.green');
+greenColor.addEventListener('click', function(){
+      body.style.backgroundColor = '#4cd137';
+});
+
+const blueColor = document.querySelector('.blue');
+blueColor.addEventListener('click', function(){
+      body.style.backgroundColor = '#487eb0';
+})
 const orange = document.querySelector('.orange');
+orange.addEventListener('click', function(){
+      body.style.backgroundColor = '#c56cf0';
+})
 
 
 
