@@ -22,11 +22,33 @@ const button = document.querySelectorAll('li');
 //       body.style.backgroundColor = '#c56cf0';
 // });
 
+// button.forEach(function(value){
+//       value.addEventListener('click', function(){
+//             let className = this.classList.value;
+//             body.style.backgroundColor = className;
+//             console.log(className);
+//       })
+// })
+
 button.forEach(function(value){
       value.addEventListener('click', function(){
-            let className = this.classList.value;
-            body.style.backgroundColor = className;
+            let className = this.classList[0];
+            let color = '';
+            if(className === 'red'){
+                  color= '#e84118';
+            }
+            if(className === 'green'){
+                  color = '#4cd137';
+            }
+            if(className === 'blue'){
+                  color = '#487eb0'
+            }
+            if(className === 'orange'){
+                  color = '#c56cf0'
+            }
+            body.style.backgroundColor = color;
             console.log(className);
+            console.log(color);
       })
 })
 
