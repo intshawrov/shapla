@@ -12,3 +12,14 @@ document.getElementById('tom').style.padding = '20px 10px';
 document.getElementById('tom').style.width = '200px'
 document.getElementById('tom').style.color = '#ffff';
 document.getElementById('tom').style.margin = '0 0 5px 0';
+
+const menuItem = document.querySelectorAll('a');
+menuItem.forEach(function(i){
+      i.style.color = 'red';
+      i.style.fontSize = '20px';
+      // i.style.background = 'black';
+});
+
+const cusClass = document.getElementsByClassName('nav-link');
+
+const convertedClass = Array.from(cusClass);
