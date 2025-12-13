@@ -22,3 +22,19 @@
       display: inline-block;
       box-shadow: 0 0 10px #ddd;
 }
+
+#menu li.red{
+      background-color: #e84118;
+}
+
+#menu li.green{
+      background-color: #4cd137;
+}
+
+#menu li.blue{
+      background-color: #487eb0;
+}
+
+#menu li.orange{
+      background-color: #ff9f1a;
+}
