@@ -23,3 +23,9 @@ menuItem.forEach(function(i){
 const cusClass = document.getElementsByClassName('nav-link');
 
 const convertedClass = Array.from(cusClass);
+
+convertedClass.forEach(function(i){
+      i.style.backgroundColor = '#1f923cff';
+      i.style.padding = '10px';
+      
+})
