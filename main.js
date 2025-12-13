@@ -34,6 +34,9 @@ button.forEach(function(value){
       value.addEventListener('click', function(){
             let className = this.classList[0];
             let color = '';
+            if(className === 'white'){
+                  color = '#fff';
+            }
             if(className === 'red'){
                   color= '#e84118';
             }
@@ -47,8 +50,7 @@ button.forEach(function(value){
                   color = '#c56cf0'
             }
             body.style.backgroundColor = color;
-            console.log(className);
-            console.log(color);
+
       })
 })
 

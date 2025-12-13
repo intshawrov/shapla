@@ -24,6 +24,11 @@
       cursor: pointer;
 }
 
+#menu li.white{
+      background-color: #fff;
+}
+
+
 #menu li.red{
       background-color: #e84118;
 }
