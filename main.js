@@ -2,7 +2,6 @@
 
 const body = document.getElementById('body');
 const button = document.querySelectorAll('li');
-const lorem = document.querySelector('p');
 
 // const redColor = document.querySelector('.red');
 // redColor.addEventListener('click', function(){
